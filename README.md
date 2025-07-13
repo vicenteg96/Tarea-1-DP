@@ -7,20 +7,35 @@ Tarea-1-DP/
 
 ├─ data/
 │ └── processed/ # Datos preprocesados (taxi_train.parquet)
+
 ├── models/ # Modelo entrenados (joblib)
+
 ├── notebooks/
+
 │ ├── 01_data_prep.ipynb # Carga y preprocesamiento de datos
+
 │ ├── 02_model_train.ipynb # Entrenamiento y evaluación inicial
+
 │ └── 03_eval.ipynb # Evaluación del modelo en múltiples meses
+
 ├── src/
+
 │ ├── data/
+
 │ │ └── dataset.py # Función para cargar datos desde parquet
+
 │ ├── features/
+
 │ │ └── build_features.py # Limpieza, variables y creación de target
+
 │ ├── modeling/
+
 │ │ └── train.py # Entrenamiento del modelo
+
 │ │ └── predict.py # Evaluación del modelo y cálculo de F1-score
+
 │ └── visualization/
+
 │ └── plots.py # Gráficos de resultados y distribución de clases
 
 └── README.md
