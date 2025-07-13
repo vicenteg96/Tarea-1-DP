@@ -62,7 +62,7 @@ Tarea-1-DP/
 
 ## Ejemplo de tabla de resultados 
 
-| Mes      | Ejemplos | F1-score | % High Tip | % Low Tip |
+| Mes      | Ejemplos | F1-score | % Propina alta | % Propina Baja |
 |----------|----------|----------|-------------|------------|
 | 2020-02  | 6,276,854 | 0.3593   | 57.35%      | 42.65%     |
 | 2020-04  |   236,611 | 0.5194   | 42.29%      | 57.71%     |
